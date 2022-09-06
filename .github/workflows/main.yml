@@ -25,7 +25,7 @@ jobs:
           node-version: 13.x
           cache: npm
       
-      - run: npm ci
+      - run: npm run install
       - run: npm run test
         
       - run: npm run preinstall
