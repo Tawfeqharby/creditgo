@@ -3,7 +3,7 @@ name: BackEnd CI workflow
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
       
 # Env variable
 # env:
